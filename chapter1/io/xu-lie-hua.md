@@ -13,3 +13,12 @@
 实现序列化的两个模块：
 - `cPlckle`是由C语言编写，效率比后者高很多；
 - 先导入`cPickle`，如果此模块不存在，再导入
+
+
+```python
+try:
+    import cPickle as pickle
+except ImportError:
+    import pickle
+```
+
