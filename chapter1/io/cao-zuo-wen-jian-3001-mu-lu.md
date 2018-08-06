@@ -25,28 +25,12 @@
 |os.mkdir("test")|创建单个目录|
 |os.stat(file)|获取文件属性|
 |os.chmod(file)|修改文件权限与时间戳|
-
+|os.rmdirs("dir")|删除目录<br>只能删除空目录<br>|
 ## shutil
 |代码|功能|
 |-|-|
-|shutil.copytree("olddir", "newdir")|oldder和newdir都只能是目录<br>newdir必须不存在|
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
+|shutil.copytree("olddir", "newdir")|复制文件夹<br>oldder和newdir都只能是目录<br>newdir必须不存在|
+|shutil.copyfile("oldfile", "newfile")|复制文件<br>oldfile和newfile都只能是文件|
+|shutil.copy("oldfile", "newfile")|复制文件<br>oldfile只能是文件<br>newfile可以是文件，也可以是目标目录|
+|shutil.move("oldpos","newpos")|移动文件|
+|shutil.rmtree("dir")|空目录、有内容的目录都可以删|
