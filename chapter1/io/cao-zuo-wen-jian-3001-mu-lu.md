@@ -18,11 +18,17 @@
 |os.path.basename(filepath)|获取文件名|
 |os.path.getsize(filename)|获取文件大小|
 |os.getenv()<br>os.setenv()|读取环境变量<br>获取环境变量|
-|os.path.||
-|os.path.||
-|os.path.||
+|os.linesep|获取当前平台行终止符：<br>Windows：`\r\n`<br>Linux：`\n`<br>Mac：`\r`|
+|os.name|获取当前平台：<br>Windows：`nt`<br>Linux/Unix：`posix`|
+|os.rename(old,new)|重命名文件或目录|
+|os.makedirs(r"c:\python\test")|创建多级目录|
+|os.mkdir("test")|创建单个目录|
+|os.stat(file)|获取文件属性|
+|os.||
+|os.||
+|os.||
 
-
+|os.||
 
 ## shutil
 |代码|功能|
