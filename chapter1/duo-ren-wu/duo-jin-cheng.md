@@ -1,17 +1,5 @@
 # 多进程
 ---
-## os.fork()
-> 仅适用于Unix/Linux操作系统，对Windows不支持。
-
-1. os模块封装了常见的系统调用；
-- 特殊方法fork()来自Unix/Linux操作系统提供的一个fork系统调用；
-  1.普通方法调用一次返回一次；fork方法调用一次返回两次，原因：
-    1. 在于OS将当前进程（父进程）复制出一份进程（子进程），
-    - 这两个进程几乎完全相同，
-    - fork方法分别在父进程和子进程中返回，
-- 子进程中永远返回0，父进程中返回的是子进程的ID。
-- getppid()用于获取父进程ID。  
-    
-
-## multiprocessing
-> 跨平台实现。
+- os.fork()
+- multiprocessing
+- multiprocessing模块中的Pool类

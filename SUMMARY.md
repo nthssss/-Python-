@@ -10,6 +10,8 @@
       * [数据库存储](chapter1/io/xu-lie-hua/shu-ju-ku-cun-chu.md)
   * [多任务](chapter1/duo-ren-wu.md)
     * [多进程](chapter1/duo-ren-wu/duo-jin-cheng.md)
+      * [os.fork\(\)](chapter1/duo-ren-wu/duo-jin-cheng/osfork.md)
+      * [mulitiprocessing](chapter1/duo-ren-wu/duo-jin-cheng/mulitiprocessing.md)
     * [多线程](chapter1/duo-ren-wu/xian-cheng.md)
     * 协程
     * 分布式进程
