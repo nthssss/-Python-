@@ -15,10 +15,10 @@
       * Pool类
       * 进程通信
     * [多线程](chapter1/duo-ren-wu/xian-cheng.md)
-      * threading创建多线程
-      * 线程同步
-      * GIL
+      * [threading创建多线程](chapter1/duo-ren-wu/xian-cheng/threadingchuang-jian-duo-xian-cheng.md)
+      * [线程同步](chapter1/duo-ren-wu/xian-cheng/xian-cheng-tong-bu.md)
+      * [GIL](chapter1/duo-ren-wu/xian-cheng/gil.md)
     * [协程](chapter1/duo-ren-wu/xie-cheng.md)
-    * 分布式进程
+    * [分布式进程](chapter1/duo-ren-wu/fen-bu-shi-jin-cheng.md)
   * [网络编程](chapter1/wang-luo-bian-cheng.md)
 
