@@ -24,16 +24,12 @@
 |os.makedirs(r"c:\python\test")|创建多级目录|
 |os.mkdir("test")|创建单个目录|
 |os.stat(file)|获取文件属性|
-|os.||
-|os.||
-|os.||
-
-|os.||
+|os.chmod(file)|修改文件权限与时间戳|
 
 ## shutil
 |代码|功能|
 |-|-|
-|||
+|shutil.copytree("olddir", "newdir")|oldder和newdir都只能是目录<br>newdir必须不存在|
 |||
 |||
 |||
