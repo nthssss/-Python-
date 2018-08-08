@@ -10,6 +10,7 @@
 - 解码：JSON对象转换成Python对象（load、loads,区别同dump,dumps）：
 
 ## 类型变化规则(左列向右列转换)
+### dump、dumps
 |Python|JSON|
 |-|-|
 |dict|object|
@@ -19,13 +20,15 @@
 |True|true|
 |False|false|
 |None|null|
-
+### load、loads
 |JSON|Python|
 |-|-|
-|||
-|||
-|||
-|||
-|||
-|||
-|||
+|object|dict|
+|array|list|
+|string|unicode|
+|number(int)|int,long|
+|number(real)|float|
+|true|True|
+|false|False|
+|null|None|
+
