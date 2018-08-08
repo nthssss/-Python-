@@ -19,8 +19,9 @@ with open('zhiyu.txt','w') as fp:
 - `indent=None, `应该是一个非负整型：
     1. 0或空：一行显示数据；
     - 否则会：换行且按照indent的数量显示前面的空白，将JSON内容进行格式化显示。
-- `separators=None, `分隔符
-    1. 实际上是(item_separator, dict_separator)的一个元组
+- `separators=None, `分隔符，实际上是(item_separator, dict_separator)的一个元组，默认是`(',',':')`，表示dictionary内keys之间用`,`隔开。
+- `encoding='utf-8', `设置JSON编码格式，处理中文时一定要注意。
+- `sort_keys=False, `将数据根据keys的值进行排序。
 
 ## dumps
 ```python
