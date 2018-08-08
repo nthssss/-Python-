@@ -14,7 +14,7 @@ urlretrieve()将远程数据直接下载到本地：
 |data|post到服务器的数据，该方法返回一个包含两个元素的元组`(filename,header)`：<br>filename表示保存到本地的路径；<br>header表示服务器响应头。|
 
 
-以天堂图片网为例，提取当前网址中的图片链接，并将图片下载到当前目录下：
+以天堂图片网`http://www.ivsky.com/tupian/ziranfengguang/`为例，提取当前网址中的图片链接，并将图片下载到当前目录下：
 
 1. 提取当前网址将img标记中的src属性；
 - urllib.urlretrieve函数下载，自动回调schedule函数，显示当前下载的进度。
