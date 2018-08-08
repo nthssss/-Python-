@@ -9,6 +9,7 @@
       * [无数据库存储](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu.md)
         * [HTML正文抽取](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu/htmlzheng-wen-chou-qu.md)
           * [存储为JSON](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu/htmlzheng-wen-chou-qu/cun-chu-wei-json.md)
+            * [Python对象与JSON对象的转换](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu/htmlzheng-wen-chou-qu/cun-chu-wei-json/pythondui-xiang-yu-json-dui-xiang-de-zhuan-huan.md)
           * [存储为CSV](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu/htmlzheng-wen-chou-qu/cun-chu-wei-csv.md)
         * [多媒体文件抽取](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu/duo-mei-ti-wen-jian-chou-qu.md)
         * [Email提醒](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu/emailti-xing.md)
