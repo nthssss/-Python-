@@ -27,6 +27,9 @@ msg = MIMEText('Python爬虫运行异常，异常信息为遇到HTTP 403', 'plai
 
     
 2. 接着设置邮件的发件人、收件人和邮件主题等信息，并通过STMP发送出去：
+
+
+```python
 # -*- coding: utf-8 -*-
 from email.header import Header
 from email.mime.text import MIMEText
@@ -66,3 +69,5 @@ server.quit()
 msg = MIMEText('<html><body><h1>Hello</h1>' +
                '<p>异常网页<a href="http://www.cnblogs.com">cnblogs</a>...</p>'+
                '','html','utf-8')
+```
+
