@@ -12,7 +12,15 @@ with open('zhiyu.txt','w') as fp:
 ```
 ## parameters
 1. `skipkeys=False, ` 
-    - 如果dict的keys内的数据不是Python的基本类型（str、uniccode、int、long、float、bool、None）
+    - 如果dict的keys内的数据不是Python的基本类型（str、uniccode、int、long、float、bool、None）:
+        1. 设置为False时，会报错TypeError;
+        - 设置成True，则会跳过这类key。
+- `ensure_ascii=True, `表示使用ascii编码。
+- `indent=None, `应该是一个非负整型：
+    1. 0或空：一行显示数据；
+    - 否则会：换行且按照indent的数量显示前面的空白，将JSON内容进行格式化显示。
+- `separators=None, `分隔符
+    1. 实际上是(item_separator, dict_separator)的一个元组
 
 ## dumps
 ```python
