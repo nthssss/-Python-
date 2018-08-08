@@ -7,7 +7,7 @@
         - 将JSON对象通过fp文件流写入文件中；
     - dumps：生成一个字符串。
 
-- 解码：JSON对象转换成Python对象（load、loads）：
+- 解码：JSON对象转换成Python对象（load、loads,区别同dump,dumps）：
 
 ## 类型变化规则(左列向右列转换)
 |Python|JSON|
