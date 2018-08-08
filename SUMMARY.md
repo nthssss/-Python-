@@ -10,8 +10,8 @@
         * HTML正文抽取
           * 存储为JSON
           * 存储为CSV
-        * 多媒体文件抽取
-        * Email提醒
+        * [多媒体文件抽取](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu/duo-mei-ti-wen-jian-chou-qu.md)
+        * [Email提醒](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu/emailti-xing.md)
       * [数据库存储](chapter1/io/xu-lie-hua/shu-ju-ku-cun-chu.md)
   * [多任务](chapter1/duo-ren-wu.md)
     * [多进程](chapter1/duo-ren-wu/duo-jin-cheng.md)
