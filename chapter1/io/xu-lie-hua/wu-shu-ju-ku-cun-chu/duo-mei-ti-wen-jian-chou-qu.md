@@ -21,7 +21,7 @@ urlretrieve()将远程数据直接下载到本地：
 
 
 
-```
+```python
 # -*- coding: utf-8 -*-
 import urllib
 import requests
