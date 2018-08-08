@@ -17,5 +17,13 @@ STMP协议发送邮件，Python内置对SMTP的支持，可以发送
     1.  邮件正文；
     - MIME的subtype，传入“plain”表示纯文本，最终的MIME就是“text/plain”；
     - 设置编码格式，UTF-8编码保证多语言兼容性。
+
+
+```python
+from email.mime.text import MIMEText
+msg = MIMEText('Python爬虫运行异常，异常信息为遇到HTTP 403', 'plain', 'utf-8')
+```
+
+
     
 2. 接着设置邮件的发件人、收件人和邮件主题等信息，并通过STMP发送出去：
