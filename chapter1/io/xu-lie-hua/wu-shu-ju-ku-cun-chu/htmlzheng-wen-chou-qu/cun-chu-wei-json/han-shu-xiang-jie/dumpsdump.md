@@ -10,6 +10,13 @@ print json_str
 with open('zhiyu.txt','w') as fp:
     json.dump(str,fp=fp,ensure_ascii=False)
 ```
+
+
+```
+[{"username": "知鱼", "age": 24}, [2, 3], 1]
+```
+
+
 ## parameters
 1. `skipkeys=False, ` 
     - 如果dict的keys内的数据不是Python的基本类型（str、uniccode、int、long、float、bool、None）:
