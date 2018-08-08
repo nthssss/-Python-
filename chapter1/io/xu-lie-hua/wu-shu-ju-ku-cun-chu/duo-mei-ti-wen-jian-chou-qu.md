@@ -7,6 +7,12 @@
 ## urlretrieve()函数（urllib模块）
 urlretrieve()将远程数据直接下载到本地：
 
+
+```
+urlretrieve(url, filename=None, reporthook=None, data=None)
+```
+
+
 |参数|参数说明|
 |-|-|
 |filename|指定存储本地路径:<br>如果参数未指定，urllib会生成一个临时文件保存数据。|
