@@ -1,6 +1,6 @@
 # dumps、dump
 
-
+## demo
 ```python
 # -*- coding: utf-8 -*-
 import json
@@ -10,6 +10,10 @@ print json_str
 with open('zhiyu.txt','w') as fp:
     json.dump(str,fp=fp,ensure_ascii=False)
 ```
+## parameters
+1. `skipkeys=False, ` 
+    - 如果dict的keys内的数据不是Python的基本类型（str、uniccode、int、long、float、bool、None）
+
 ## dumps
 ```python
 def dumps(obj, 
