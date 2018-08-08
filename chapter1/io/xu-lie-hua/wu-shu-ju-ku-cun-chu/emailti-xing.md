@@ -68,6 +68,6 @@ server.quit()
 
 msg = MIMEText('<html><body><h1>Hello</h1>' +
                '<p>异常网页<a href="http://www.cnblogs.com">cnblogs</a>...</p>'+
-               '','html','utf-8')
+               '</body></html>','html','utf-8')
 ```
 
