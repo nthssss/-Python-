@@ -12,4 +12,4 @@ r = requests.get('http://seputu.com/', headers=headers)
 - 分析首页HTML结构，确定要抽取标记的位置：
     1. 标题和章节都被包含在```<div class="mulu">```;
     - 标题位于其中的```<div class="mulu-title">```下的```<h2>```中；
-    - 章节位于其中的```<div class="box">`下的```<a>```中
+    - 章节位于其中的```<div class="box">```下的```<a>```中
