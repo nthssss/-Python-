@@ -21,6 +21,8 @@ with open('zhiyu.txt', 'r') as fp:
 1. `encoding=None, `指定编码格式。
 - `parse_float=None,`
     - 如果指定，将把每一个JSON字符串按照float解码调用，相当于`float(num_str)`。
+- `parse_int=Noone, `
+    - 如果指定，将把每一个JSON字符串按照int解码调用，相当于`int(num_str)`
 
 ## loads
 
