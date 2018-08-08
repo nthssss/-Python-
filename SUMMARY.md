@@ -8,7 +8,7 @@
     * [序列化](chapter1/io/xu-lie-hua.md)
       * [无数据库存储](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu.md)
         * [HTML正文抽取](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu/htmlzheng-wen-chou-qu.md)
-          * 存储为JSON
+          * [存储为JSON](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu/htmlzheng-wen-chou-qu/cun-chu-wei-json.md)
           * 存储为CSV
         * [多媒体文件抽取](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu/duo-mei-ti-wen-jian-chou-qu.md)
         * [Email提醒](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu/emailti-xing.md)

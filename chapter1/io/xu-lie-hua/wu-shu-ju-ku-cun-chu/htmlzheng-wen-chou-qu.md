@@ -2,6 +2,13 @@
 ---
 1. 存储为JSON
 - 存储为CSV
+
+
+- `http://seputu.com/`
+- 静态网站
+    - 即标题、章节、章节名称都不是由JS动态加载的，下面本例工作的前提 。
+- 本例使用BeautifulSoup和lxml两种方式进行解析抽取。
+
 ---
 > 1. 存储CSV文件时需要统一存储数据类型。
     - 代码中使用encode('utf-8')将title、real_title、href、date变量统一为str。
