@@ -8,3 +8,13 @@
 - CSV文件由任意数目的记录组成，记录间以某种换行符分隔；
 - 每条记录由字段组成，字段间的分隔符是其他字符或字符串，最常见的是逗号或制表符。
 - 通常，所有记录都有完全相同的字段序列。
+
+```csv
+ID,UserName,Password,age,country
+1001,"zhiyu","zhiyu_pass",23,"China"
+1002,"Mary","Mary_pass",20,"USA"
+1003,"Mark","Mark_pass",20,"USA"
+```
+Python：csv库，Writer对象。
+
+
