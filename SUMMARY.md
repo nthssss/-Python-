@@ -15,6 +15,7 @@
               * [loads、load](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu/htmlzheng-wen-chou-qu/cun-chu-wei-json/han-shu-xiang-jie/loadsload.md)
           * [存储为CSV](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu/htmlzheng-wen-chou-qu/cun-chu-wei-csv.md)
             * [python写csv](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu/htmlzheng-wen-chou-qu/cun-chu-wei-csv/pythonxie-csv.md)
+            * [python读csv](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu/htmlzheng-wen-chou-qu/cun-chu-wei-csv/pythondu-csv.md)
         * [多媒体文件抽取](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu/duo-mei-ti-wen-jian-chou-qu.md)
         * [Email提醒](chapter1/io/xu-lie-hua/wu-shu-ju-ku-cun-chu/emailti-xing.md)
       * [数据库存储](chapter1/io/xu-lie-hua/shu-ju-ku-cun-chu.md)
