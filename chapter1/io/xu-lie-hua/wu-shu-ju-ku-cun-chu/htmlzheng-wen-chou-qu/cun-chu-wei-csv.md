@@ -16,20 +16,3 @@ ID,UserName,Password,age,country
 1003,"Mark","Mark_pass",20,"USA"
 ```
 Python：csv库，writer对象。
-```python
-# -*- coding: utf-8 -*-
-import csv
-headers = ["ID","UserName","Password","age","country"]
-rows = [(1001,"zhiyu","zhiyu_pass",23,"China"),
-        (1002,"Mary","Mary_pass",20,"USA"),
-        (1003,"Mark","Mark_pass",20,"USA")
-]
-with open('zhiyu02.csv','w') as f:
-    f_csv = csv.writer(f)
-    f_csv.writerow(headers)
-    f_csv.writerows(rows)
-```
-rows列表中的数据元组，也可以是字典数据。
-
-
-
